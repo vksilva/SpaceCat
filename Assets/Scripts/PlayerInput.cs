@@ -15,5 +15,10 @@ public class PlayerInput : MonoBehaviour
         {
             shipController.Move(direction);
         }
+        
+        if (joystick.IsDown)
+        {
+            shipController.Shoot();
+        }
     }
 }

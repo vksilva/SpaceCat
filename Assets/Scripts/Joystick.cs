@@ -16,6 +16,7 @@ namespace BustaGames.Joystick
         private const float HORIZONTAL_MAX_ANGLE = 180f - ANGLE_THRESHOLD;
         
         public Vector3 Direction => _input;
+        public bool IsDown => _isDown;
 
         [Tooltip("If the controls will always be visible, or only when an input is detected.")]
         public bool alwaysVisible = true;

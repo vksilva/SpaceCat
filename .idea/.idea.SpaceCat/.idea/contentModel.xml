@@ -162,6 +162,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AxisOptions.cs" t="Include" />
+          <e p="Bullet.cs" t="Include" />
+          <e p="BulletPool.cs" t="Include" />
           <e p="Joystick.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="ShipController.cs" t="Include" />
